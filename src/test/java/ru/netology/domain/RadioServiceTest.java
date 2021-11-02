@@ -147,7 +147,7 @@ public class RadioServiceTest {
     }
 
     @Test
-    public void setNextCurrentStation() {
+    public void setUpCurrentStationWhenMin() {
         radio.setCurrentStation(0);
         radio.setUpCurrentStation();
         int expected = 0;
